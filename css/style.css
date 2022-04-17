@@ -1,4 +1,4 @@
-@media (min-width: 500px ) and (max-width: 800px)  {  
+
 	@import url(https://fonts.googleapis.com/css?family=Poppins:regular,700);
 
 	@font-face {
@@ -269,4 +269,3 @@
 	img{vertical-align: top;}
 
 	h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit};
-}
