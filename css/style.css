@@ -200,7 +200,7 @@ body {
   gap: 8.97px;
 }
 @media (max-width: 575px) {
-  .header__logo-box :nth-child(2) {
+  .header__displaynone {
     display: none;
   }
 }
