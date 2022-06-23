@@ -1,81 +1,179 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Homework 17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Верстка «Homework_18»</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <div class="header__top">
-                    <div class="header__logo">
-                        <img src="img/header-top/Logo-Placeholder-5logo.svg" alt="logo">
-                    </div>
-                    <div class="header__unity">
-                        <div class="header__hours">
-                            <div class="hours__logo">
-                                <img src="img/header-top/access_time_24pxclock.svg" alt="time">
-                            </div>
-                            <div class="hours__text">
-                                <p>BOARDING HOURS</p>
-                                <p>Mon - Sat: 7:00 am - 6:00 pm</p>
-                            </div>
-                        </div>
-                        <div class="header__call">
-                            <div class="call__logo">
-                                <img src="img/header-top/phone_24pxphone.svg" alt="phone">
-                            </div>
-                            <div class="call__text">
-                                <p>CALL US</p>
-                                <p>(555) Pup-Cares</p>
-                            </div>
-                        </div>
-                        <a href="#" class="header__button button">Make an Appointment</a>
-                    </div>
-                </div>
-                <div class="header__menu">
-                    <nav class="menu__body">
-                        <ul class="menu__list">
-                            <li><a href="" class="menu__link">Services</a></li>
-                            <li><a href="" class="menu__link">Specials</a></li>
-                            <li><a href="" class="menu__link">Facilities</a></li>
-                            <li><a href="" class="menu__link">Reviews</a></li>
-                            <li><a href="" class="menu__link">Shop</a></li>
-                            <li><a id="hhh" href="" class="menu__link">About</a></li>
-                        </ul>
-                    </nav>
-                    <div class="menu__items">
-                        <a class="menu__item-1"><img src="img/header-menu/search_24pxseach.svg" alt="search"></a>
-                        <a class="menu__item-2"><img src="img/header-menu/shopping_cart_24pxbasket.svg" alt="basket"></a>
-                    </div>
-                </div>
-                <div class="header__start">
-                    <div class="header__text">Premier dog boarding, daycare & day spa</div>
-                    <a href="#" class="start__button button">Make an Appointment</a>
-                </div>
-            </div>
-        </header>
-        <main class="main">
-            <div class="about">
-                <div class="about__container">
-                    <h2 class="about__title">Who we are</h2>
-                    <h2 class="about__subtitle">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
-                    <p class="about__text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
-                    <div class="about__image-cont">
-                        <img src="img/menu/about/pexels-photo-406014 3dog.png" alt="dog" class="about__image">
-                    </div>
-                    <img src="img/menu/about/Stylize Circlesdodts.png" alt="dots" class="about__dots">
-                </div>
-            </div>
-        </main>
-        <footer class="footer"></footer>
-    </div>
+	<div class="rootpage">
+		<h1>Верстка «Homework_18»</h1>
+		<div class="rootpage__info">
+			Особенности проекта
+		</div>
+		<h2>Готовые страницы:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html">Главная</a></li>
+		</ol>
+		<h2>Попапы:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html#"></a></li>
+		</ol>
+		<div class="rootpage__tnx">
+			<h2>Спасибо за заказ!</h2>
+			<p>Буду рад (а) хорошему отзыву.</p>
+			<p>Обращайтесь еще!</p>
+		</div>
+		<div class="rootpage__contacts">
+			<h2>Мои контакты:</h2>
+			<p>Почта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
+			<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
+			<p>Соц. сеть: <a href="">ссылка на соц. сеть</a></p>
+		</div>
+	</div>
 </body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #fff;
+		background-color: #5e5373;
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #ebe691
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #aaa768;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	h1 {
+		color: #ebe691;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #ebe691;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 200px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+
+	.rootpage__contacts {
+		background: #32b5a4;
+
+	}
+
+	.rootpage__contacts a {
+		color: #ebe691;
+	}
+
+	.rootpage__tnx {
+		background: #c22d63;
+		margin: 0px 0px 1rem 0px;
+	}
+</style>
 
 </html>
