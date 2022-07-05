@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220704145320">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220706010325">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,10 +23,10 @@
 					</div>
 					<nav class="header__nav">
 						<ul class="header__menu">
-							<li><a class="menu__link">Menu</a></li>
-							<li><a class="menu__link">Recipes</a></li>
-							<li><a class="menu__link">Chefs</a></li>
-							<li><a class="menu__link">Contacts</a></li>
+							<li><a href="../home.html#menu" class="menu__link">Menu</a></li>
+							<li><a href="../home.html#recipes" class="menu__link">Recipes</a></li>
+							<li><a href="../home.html#chefs" class="menu__link">Chefs</a></li>
+							<li><a href="../home.html#contacts" class="menu__link">Contacts</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -95,12 +95,12 @@
 			</div>
 			<div class="work">
 				<div class="work__container">
+					<div class="title">
+						<h2>how it works</h2>
+						<picture><source srcset="img/title/EVENTStitle2.webp" type="image/webp"><img src="img/title/EVENTStitle2.png" alt="ABOUT"></picture>
+					</div>
+					<span class="line"></span>
 					<div class="work__content">
-						<div class="title">
-							<h2>how it works</h2>
-							<picture><source srcset="img/title/EVENTStitle2.webp" type="image/webp"><img src="img/title/EVENTStitle2.png" alt="ABOUT"></picture>
-						</div>
-						<span class="line"></span>
 						<div class="work__items">
 							<div class="work__item item-work">
 								<div class="item-work__title">Pick meals</div>
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="dishes">
+			<div id="menu" class="dishes">
 				<div class="dishes__container">
 					<div class="dishes__content">
 						<div class="title">
@@ -146,7 +146,7 @@
 									<div class="item-dishes__body">
 										<a href="http://google.com/" class="item-dishes__title">Featured Meal</a>
 										<div class="item-dishes__subtitle">Served with french fries + drink</div>
-										<div class="item-dishes__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, aut et facere earum sit, inventore ex id maxime illum ratione repellat tempore vitae hic quasi? Corporis libero quasi vel quis! Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
+										<div class="item-dishes__text">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
 									</div>
 									<div class="item-dishes__items">
 										<div class="item-dishes__rating">
@@ -341,9 +341,170 @@
 					</div>
 				</div>
 			</div>
+			<div id="chefs" class="chefs">
+				<div class="chefs__container">
+					<div class="title">
+						<h2>This month's chefs</h2>
+						<picture><source srcset="img/title/EVENTStitle4.webp" type="image/webp"><img src="img/title/EVENTStitle4.png" alt="ABOUT"></picture>
+					</div>
+					<span class="line"></span>
+					<div class="chefs__content">
+						<div class="chefs__items">
+							<div class="chefs__item">
+								<a href="" class="chefs__picture">
+									<picture><source srcset="img/chefs/1.webp" type="image/webp"><img src="img/chefs/1.jpg" alt="chefs" class="chefs__image"></picture>
+								</a>
+								<div class="chefs__bio">
+									<a href="" class="chefs__name">Gregory Flores</a>
+									<div class="chefs__speciality">Chef of the cold</div>
+								</div>
+							</div>
+							<div class="chefs__item">
+								<a href="" class="chefs__picture">
+									<picture><source srcset="img/chefs/2.webp" type="image/webp"><img src="img/chefs/2.jpg" alt="chefs" class="chefs__image"></picture>
+								</a>
+								<div class="chefs__bio">
+									<a href="" class="chefs__name">Annette Cooper</a>
+									<div class="chefs__speciality">Chef of the hot</div>
+								</div>
+							</div>
+							<div class="chefs__item">
+								<a href="" class="chefs__picture">
+									<picture><source srcset="img/chefs/3.webp" type="image/webp"><img src="img/chefs/3.jpg" alt="chefs" class="chefs__image"></picture>
+								</a>
+								<div class="chefs__bio">
+									<a href="" class="chefs__name">Greg Fox</a>
+									<div class="chefs__speciality">Сhef macro kitchen</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="recipes" class="recipes">
+				<div class="recipes__container">
+					<div class="recipes__content">
+						<div class="title">
+							<h2>Recipes From Our Chefs</h2>
+							<picture><source srcset="img/title/EVENTStitle5.webp" type="image/webp"><img src="img/title/EVENTStitle5.png" alt="ABOUT"></picture>
+						</div>
+						<span class="line"></span>
+						<div class="recipes__cards">
+							<div class="recipes__big-card">
+								<a href="" class="big-card__tag">breakfast</a>
+								<div class="big-card__date">05 Jul 2016</div>
+								<div class="big-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+								<div class="big-card__author">Jason Keller</div>
+								<div class="components__box">
+									<div class="visibility__box">
+										<img class="visibility__image" src="img/recipes/ic_remove_red_eyevisibility.svg" alt="visibility">
+										<div class="visibility__order">216</div>
+									</div>
+									<div class="comments__box">
+										<img class="comments__image" src="img/recipes//ic_question_answercomments.svg" alt="comments">
+										<div class="comments__order">12</div>
+									</div>
+								</div>
+							</div>
+							<div class="recipes__small-cards">
+								<div class="recipes__small-card">
+									<div class="small-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div>
+									<div class="small-card__components">
+										<div class="components__left">
+											<a href="" class="small-card__tag">lunch</a>
+											<div class="small-card__date">06 Jan 2016</div>
+										</div>
+										<div class="components__box">
+											<div class="visibility__box">
+												<img class="visibility__image" src="img/recipes/ic_remove_red_eyevisibility.svg" alt="visibility">
+												<div class="visibility__order">216</div>
+											</div>
+											<div class="comments__box">
+												<img class="comments__image" src="img/recipes//ic_question_answercomments.svg" alt="comments">
+												<div class="comments__order">12</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="recipes__small-card recipes__small-card-bg">
+									<div class="small-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+									<div class="small-card__components">
+										<div class="components__left">
+											<a href="" class="small-card__tag small-card__tag_padding10">dinner</a>
+											<div class="small-card__date">06 Jan 2016</div>
+										</div>
+										<div class="components__box">
+											<div class="visibility__box">
+												<img class="visibility__image" src="img/recipes/ic_remove_red_eyevisibility.svg" alt="visibility">
+												<div class="visibility__order">216</div>
+											</div>
+											<div class="comments__box">
+												<img class="comments__image" src="img/recipes//ic_question_answercomments.svg" alt="comments">
+												<div class="comments__order">12</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="recipes__small-card">
+									<div class="small-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div>
+									<div class="small-card__components">
+										<div class="components__left">
+											<a href="" class="small-card__tag small-card__tag_padding20">sweets</a>
+											<div class="small-card__date">06 Jan 2016</div>
+										</div>
+										<div class="components__box">
+											<div class="visibility__box">
+												<img class="visibility__image" src="img/recipes/ic_remove_red_eyevisibility.svg" alt="visibility">
+												<div class="visibility__order">216</div>
+											</div>
+											<div id="contacts" class="comments__box">
+												<img class="comments__image" src="img/recipes//ic_question_answercomments.svg" alt="comments">
+												<div class="comments__order">12</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
+				<div class="footer__content">
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">CONTACTS</button>
+							<div class="spollers__body">
+								<div class="front__items">
+									<div class="front__item item-front">
+										<div class="item-front__img"><img src="img/ic_watch_later.svg" alt="watch"></div>
+										<div class="item-front__title">Today 10:00 am - 7:00 pm</div>
+										<div class="item-front__subtitle">Working hours</div>
+									</div>
+									<div class="front__item item-front">
+										<div class="item-front__img"><img src="img/ic_near_me.svg" alt="watch"></div>
+										<div class="item-front__title">Velyka Vasylkivska 100</div>
+										<div class="item-front__subtitle">Get Directions</div>
+									</div>
+									<div class="front__item item-front">
+										<div class="item-front__img"><img src="img/ic_call.svg" alt="watch"></div>
+										<div class="item-front__title">+38 (063)833 24 15</div>
+										<div class="item-front__subtitle">Call Online</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__logo-box">
+						<a href="https://google.com/"><picture><source srcset="img/logo1.webp" type="image/webp"><img src="img/logo1.png" alt="logo"></picture></a>
+						<div><a><picture><source srcset="img/logo2.webp" type="image/webp"><img src="img/logo2.png" alt="logo"></picture></a></div>
+					</div>
+					<div class="contacts__title">© Designed by Yellow Snow. All Rights Reserved.</div>
+					<div class="contacts__subtitle">Developed by <a href="https://github.com/Kirich8">Kirichenko Maxim</a></div>
+				</div>
 			</div>
 		</footer>
 	</div>
@@ -359,7 +520,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220704145320"></script>
+	<script src="js/app.min.js?_v=20220706010325"></script>
 </body>
 
 </html>
