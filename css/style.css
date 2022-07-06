@@ -1105,8 +1105,8 @@ body {
 }
 .recipes__big-card {
   flex: 1 1 50%;
-  background: url("../img/recipes/1.png") 0 0 no-repeat;
-  background-size: cover;
+  background: 0 0 / cover no-repeat url("../img/recipes/1.png");
+  /*background-size: cover;*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
